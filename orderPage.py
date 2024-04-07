@@ -4,7 +4,7 @@ import sqlite3
 from tkinter import messagebox
 from tkinter import *
 
-con=sqlite3.connect('Muratpaşa Kantin/muratpasakyk.db')
+con=sqlite3.connect('muratpasakyk.db')
 cursor=con.cursor() 
 
 def Main():
