@@ -1,7 +1,7 @@
 import tkinter as tk
 import sqlite3
 
-con = sqlite3.connect('Muratpaşa Kantin/muratpasakyk.db')
+con = sqlite3.connect('muratpasakyk.db')
 cursor = con.cursor()
 
 window = tk.Tk()
